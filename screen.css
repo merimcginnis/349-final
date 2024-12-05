@@ -2,3 +2,44 @@
 a.active {
     font-weight: bold;
 }
+
+html {
+    background-color: #f6f6f5;
+}
+
+body {
+    font-family: "futura-pt", sans-serif;
+    margin: 50px;
+}
+
+.nav {
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1b1914;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: "arsenica-variable",sans-serif;
+    font-size: 1.5rem;
+    color: #1b1914;
+    padding: 1rem;
+}
+
+.home_cover {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+}
