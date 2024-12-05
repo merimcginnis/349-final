@@ -1,8 +1,4 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
-}
-
 html {
     background-color: #f6f6f5;
 }
@@ -33,7 +29,7 @@ body {
 .nav ul li a {
     text-decoration: none;
     font-family: "arsenica-variable",sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: #1b1914;
     padding: 1rem;
 }
