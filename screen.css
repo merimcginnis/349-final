@@ -5,15 +5,17 @@ html {
 
 body {
     font-family: "futura-pt", sans-serif;
-    margin: 50px;
+    margin: 0px;
 }
 
+/* Home Page */
 .nav {
     height: 3.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #1b1914;
+    padding: 50px;
 }
 
 .nav ul {
@@ -37,5 +39,43 @@ body {
 .home_cover {
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-left: 30px;
+    padding-left: 200px;
 }
+
+.background-home {
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap {
+    position: relative;
+    float: left;
+}
+
+.wrap::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    background-color: #dd3932;
+    z-index: -1;
+
+}
+
+.wrap img {
+    float: left;
+    margin: 30px;
+}
+
+
+
+/* My Work */
+
+
+
+/* Blog Page */
