@@ -5,7 +5,6 @@ html {
 
 body {
     font-family: "futura-pt", sans-serif;
-    margin: 0px;
 }
 
 h2 {
@@ -99,6 +98,14 @@ p {
 }
 
 /* My Work */
+
+.work-page-section {
+    margin: 50px;
+}
+
+.work-title {
+    justify-items: center;
+}
 
 
 
