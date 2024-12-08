@@ -283,11 +283,48 @@ h1 {
   color: #f6f6f5;
 }
 
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+article {
+  flex: 1 0 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.article-left {
+  align-self: flex-start;
+}
+
+.article-right {
+  align-self: flex-end;
+}
 
 
 
 /* Responsive Design */
 
+@media screen and (min-width: 768px) {
+  .article-left {
+    order: 1;
+  }
+
+  .article-right {
+    order: 2;
+  }
+
+  .article-container {
+    justify-content: space-between;
+  }
+
+  article {
+    flex: 1 0 48%;
+  }
+}
 
 @media screen and (max-width: 900px) {
   .background-home {
