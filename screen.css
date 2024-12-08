@@ -35,7 +35,7 @@ p {
   align-items: center;
   color: #1b1914;
   padding: 50px;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 .nav ul {
@@ -65,7 +65,7 @@ p {
   background-color: #f6f6f5;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 200px;
+  padding-left: 100px;
 }
 
 .background-home {
@@ -74,9 +74,12 @@ p {
   padding-bottom: 200px;
   padding-left: 100px;
   padding-right: 100px;
+  
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 
 .wrap img, .footer-home img {
@@ -114,6 +117,7 @@ h1 {
   word-break: break-all;
 }
 
+
 .work-page-section {
   margin: 0px;
 }
@@ -148,7 +152,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -177,6 +181,7 @@ h1 {
 
 .paintings {
   margin: 100px;
+  width: auto;
 
 }
 
@@ -217,6 +222,43 @@ h1 {
 }
 
 /* Responsive Design */
+
+
+@media screen and (max-width: 900px) {
+  .background-home {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .home-text h2 {
+    font-size: 24px;
+  }
+
+  .home-text p {
+    font-size: 18px;
+  }
+
+  .wrap img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .background-home {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .home-text h2 {
+    font-size: 20px;
+  }
+
+  .home-text p {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .column {
     flex: 1 0 50%;
