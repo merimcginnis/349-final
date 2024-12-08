@@ -255,8 +255,36 @@ h1 {
 
 .blog {
   background-color: #1b1914;
-  
 }
+
+.blog-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+
+.red-m {
+  width: 75%;
+}
+
+.blog h3 {
+  color: #f6f6f5;
+}
+
+.blog h4 {
+  color: #f6f6f5;
+  font-style: italic;
+}
+
+.blog p {
+  color: #f6f6f5;
+}
+
+
+
 
 /* Responsive Design */
 
