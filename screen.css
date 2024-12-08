@@ -173,11 +173,24 @@ p {
     background-color: #dd3932;
     margin: 0px;
     padding: 100px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.papers-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.papers-iframe {
+  flex: 1;
+  min-width: 300px;
+  max-width: 45%;
+  height: 300px;
+}
 
   @media screen and (max-width: 900px) {
     .column {
