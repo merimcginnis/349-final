@@ -180,6 +180,7 @@ p {
 .papers-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 20px;
@@ -196,6 +197,14 @@ p {
     .column {
       width: 50%;
       justify-items: center;
+    }
+    .papers-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .papers-iframe {
+      max-width: 100%;
     }
   }
   
