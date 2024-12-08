@@ -8,7 +8,6 @@ html, body {
   background-color: #f6f6f5;
 }
 
-/* Global styles */
 * {
   box-sizing: border-box;
 }
@@ -53,7 +52,7 @@ p {
   font-family: "arsenica-variable",sans-serif;
   font-size: 1.9rem;
   color: #1b1914;
-  padding: 1rem;
+  padding: 50px;
 }
 
 .home_cover, .background-home, .favorite-things {
@@ -74,7 +73,6 @@ p {
   padding-bottom: 200px;
   padding-left: 100px;
   padding-right: 100px;
-  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -82,10 +80,7 @@ p {
   gap: 30px;
 }
 
-.wrap img, .footer-home img {
-  float: none;
-  margin: 20px; 
-}
+
 
 .footer-home {
   background-color: #dd3932;
@@ -97,10 +92,12 @@ p {
 }
 
 .footer-text h2 {
+  margin: 20px;
   color: #f6f6f5;
 }
 
 .footer-text p {
+  margin: 20px;
   color: #f6f6f5;
 }
 
@@ -115,12 +112,6 @@ p {
 h1 {
   font-size: 50px;
   word-break: break-all;
-}
-
-
-.work-page-section {
-  margin: 0px;
-
 }
 
 .work-title {
@@ -162,6 +153,7 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* Had to use Dropbox and find the embed link and I copied the code from that pop up.*/
 .papers-iframe {
   flex: 1;
   min-width: 300px;
@@ -189,7 +181,7 @@ h1 {
 
 }
 
-/* Row and Column Layout */
+/* Row and Column layout utilized help from ChatGPT where I asked for tips on how to make a gallery layout in css*/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -288,7 +280,6 @@ h1 {
 }
 
 button{
-  size: 100px;
   padding: 15px 32px;
   background-color: #1b1914;
   border: 5px solid #16baaf;
@@ -322,6 +313,8 @@ article {
 
 
 /* Responsive Design */
+/*Used Chat GPT tohelp me find what attributes I needed for styling responsive deisgns*/ 
+/*I askeed - 'why is this not stacking on top of each other? and How to make my column layout in a zig zag format from these columns*/ 
 
 @media screen and (min-width: 768px) {
   .article-left {
