@@ -221,6 +221,43 @@ h1 {
   padding: 10px;
 }
 
+
+/*Blog*/
+
+.nav-blog {
+  background-color: #1b1914;
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f6f6f5;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.nav-blog ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-blog ul li {
+  list-style: none;
+}
+
+.nav-blog ul li a {
+  text-decoration: none;
+  font-family: "arsenica-variable",sans-serif;
+  font-size: 1.9rem;
+  color: #f6f6f5;
+  padding: 1rem;
+}
+
+.blog {
+  background-color: #1b1914;
+  
+}
+
 /* Responsive Design */
 
 
