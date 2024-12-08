@@ -107,6 +107,90 @@ p {
     justify-items: center;
 }
 
+.work-title h2 {
+    font-family: "arsenica-variable",sans-serif;
+    font-size: 50px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20;
+    font-family: "futura-pt", sans-serif;
+  }
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 20px -20px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 20px;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content-monochrome {
+    background-color: white;
+    border:3px solid #feb009;
+    padding: 10px;
+  }
+  .content-landscape {
+    background-color: white;
+    border:3px solid #dd3932;
+    padding: 10px;
+  }
+  .content-self {
+    background-color: white;
+    border:3px solid #16baaf;
+    padding: 10px;
+  }
+  
+  .papers {
+    background-color: #dd3932;
+    margin: 0px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+      justify-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 
 /* Blog Page */
