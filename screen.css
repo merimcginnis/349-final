@@ -120,9 +120,13 @@ h1 {
 
 .work-page-section {
   margin: 0px;
+
 }
 
 .work-title {
+  justify-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
   justify-items: center;
 }
 
@@ -145,7 +149,7 @@ h1 {
 }
 
 .papers p {
-  color: #f6f6f5;
+  color: #1b1914;
 }
 
 .papers-content {
@@ -271,7 +275,7 @@ h1 {
 }
 
 .blog h3 {
-  color: #f6f6f5;
+  color: #feb009;
 }
 
 .blog h4 {
@@ -283,6 +287,14 @@ h1 {
   color: #f6f6f5;
 }
 
+button{
+  size: 100px;
+  padding: 15px 32px;
+  background-color: #1b1914;
+  border: 5px solid #16baaf;
+  color: #16baaf;
+}
+
 .article-container {
   display: flex;
   flex-wrap: wrap;
@@ -291,7 +303,10 @@ h1 {
 
 article {
   flex: 1 0 100%;
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   box-sizing: border-box;
   margin-bottom: 50px;
 }
