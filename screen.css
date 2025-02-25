@@ -321,3 +321,40 @@ article {
   .background
 ::contentReference[oaicite:0]{index=0}
  
+/* Update the CSS for .background-home on smaller screens so that it stacks vertically */
+@media screen and (max-width: 900px) {
+  .background-home {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .wrap img {
+    width: 50%;
+  }
+
+  .home-text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Adjust for very small screens (less than 600px) */
+@media screen and (max-width: 600px) {
+  .background-home {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .wrap img {
+    width: 70%; /* Adjust the image width to be smaller on smaller devices */
+  }
+  
+  .home-text h2 {
+    font-size: 20px;
+  }
+
+  .home-text p {
+    font-size: 14px;
+  }
+}
