@@ -33,7 +33,7 @@ p {
   justify-content: space-between;
   align-items: center;
   color: #1b1914;
-  padding: 50px;
+  padding: 20px 50px;
   margin-top: 20px;
 }
 
@@ -49,30 +49,30 @@ p {
 
 .nav ul li a {
   text-decoration: none;
-  font-family: "arsenica-variable",sans-serif;
+  font-family: "arsenica-variable", sans-serif;
   font-size: 1.9rem;
   color: #1b1914;
-  padding: 50px;
+  padding: 0 20px;
 }
 
 .home_cover, .background-home, .favorite-things {
-  padding: 50px;
+  padding: 20px 50px;
   box-sizing: border-box;
 }
 
 .home_cover {
   background-color: #f6f6f5;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
 }
 
 .background-home {
   background-color: white;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -80,12 +80,10 @@ p {
   gap: 30px;
 }
 
-
-
 .footer-home {
   background-color: #dd3932;
   width: 100%;
-  padding: 100px 20px;
+  padding: 50px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,7 +100,6 @@ p {
 }
 
 /* My Work */
-
 .main {
   background-color: #f6f6f5;
   max-width: 1000px;
@@ -111,18 +108,18 @@ p {
 
 h1 {
   font-size: 50px;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .work-title {
   justify-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   justify-items: center;
 }
 
 .work-title h2 {
-  font-family: "arsenica-variable",sans-serif;
+  font-family: "arsenica-variable", sans-serif;
   font-size: 50px;
 }
 
@@ -130,7 +127,7 @@ h1 {
 .papers {
   background-color: #16baaf;
   margin: 50px;
-  padding: 100px;
+  padding: 50px;
   align-items: center;
   justify-content: center;
 }
@@ -147,13 +144,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
-/* Had to use Dropbox and find the embed link and I copied the code from that pop up.*/
 .papers-iframe {
   flex: 1;
   min-width: 300px;
@@ -164,7 +160,7 @@ h1 {
 .favorite-things {
   background-color: #feb009;
   margin: 50px;
-  padding: 100px;
+  padding: 50px;
   align-items: center;
   justify-content: center;
 }
@@ -176,21 +172,20 @@ h1 {
 }
 
 .paintings {
-  margin: 100px;
+  margin: 50px;
   width: auto;
-
 }
 
-/* Row and Column layout utilized help from ChatGPT where I asked for tips on how to make a gallery layout in css*/
+/* Row and Column layout */
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -20px;
+  margin: 0 -10px;
 }
 
 .column {
   flex: 1 0 33%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .row:after {
@@ -217,9 +212,7 @@ h1 {
   padding: 10px;
 }
 
-
-/*Blog*/
-
+/* Blog */
 .nav-blog {
   background-color: #1b1914;
   height: 3.2rem;
@@ -227,7 +220,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   color: #f6f6f5;
-  padding: 50px;
+  padding: 20px 50px;
   margin-top: 20px;
 }
 
@@ -243,10 +236,10 @@ h1 {
 
 .nav-blog ul li a {
   text-decoration: none;
-  font-family: "arsenica-variable",sans-serif;
+  font-family: "arsenica-variable", sans-serif;
   font-size: 1.9rem;
   color: #f6f6f5;
-  padding: 1rem;
+  padding: 0 20px;
 }
 
 .blog {
@@ -257,9 +250,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .red-m {
@@ -279,8 +271,8 @@ h1 {
   color: #f6f6f5;
 }
 
-button{
-  padding: 15px 32px;
+button {
+  padding: 10px 20px;
   background-color: #1b1914;
   border: 5px solid #16baaf;
   color: #16baaf;
@@ -294,10 +286,7 @@ button{
 
 article {
   flex: 1 0 100%;
-  padding-top: 20px;
-  padding-bottom: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 20px;
   box-sizing: border-box;
   margin-bottom: 50px;
 }
@@ -309,12 +298,6 @@ article {
 .article-right {
   align-self: flex-end;
 }
-
-
-
-/* Responsive Design */
-/*Used Chat GPT tohelp me find what attributes I needed for styling responsive deisgns*/ 
-/*I askeed - 'why is this not stacking on top of each other? and How to make my column layout in a zig zag format from these columns*/ 
 
 @media screen and (min-width: 768px) {
   .article-left {
@@ -335,61 +318,6 @@ article {
 }
 
 @media screen and (max-width: 900px) {
-  .background-home {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .home-text h2 {
-    font-size: 24px;
-  }
-
-  .home-text p {
-    font-size: 18px;
-  }
-
-  .wrap img {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .background-home {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .home-text h2 {
-    font-size: 20px;
-  }
-
-  .home-text p {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .column {
-    flex: 1 0 50%;
-  }
-  
-  .papers-content {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .papers-iframe {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 1 0 100%; 
-  }
-  
-  .favorite-iframe {
-    height: 300px; 
-  }
-}
+  .background
+::contentReference[oaicite:0]{index=0}
+ 
